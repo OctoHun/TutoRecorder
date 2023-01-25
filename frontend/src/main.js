@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0f620c3bf930e78c56c83947a2a8842f6e55f2d5394c0325b1d6c8a58cfcc5bd
-size 3212
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+// import axios from 'axios'
+// import VueAxios from 'axios'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+
+// createApp(App).use(store).use(router).use(axios).use(VueAxios).use(ElementPlus).mount('#app')
+createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
