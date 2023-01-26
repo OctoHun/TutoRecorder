@@ -1,24 +1,3 @@
-import { createStore } from "vuex";
-import accountStore from "./accountStore";
-import menuStore from "./menuStore";
-import platformInfoStore from "./platformInfoStore";
-import loadingEffect from "./loadingEffect";
-import createPersistedState from "vuex-persistedstate";
-
-
-
-
-
-export default createStore({
-  modules: {
-    accountStore,
-    menuStore,
-    platformInfoStore,
-    loadingEffect,
-  },
-  plugins: [
-    createPersistedState({
-      paths: ["accountStore",],
-    })
-  ]
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fe5fa44bf64908ead8f4708a493976bd8dbd1f96655c10ae65188cac9f787fc
+size 1111
