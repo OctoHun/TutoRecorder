@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:133902510e000ff261195816f0b10dc9c34a4ec3a8ff819f591bc5a17427e373
-size 241
+<template>
+    <div>
+        <SoloMain msg="개인모드" />
+    </div>
+</template>
+<script>
+import SoloMain from '@/components/solo/SoloMain.vue'
+
+export default {
+    name: 'SoloView',
+    components: {
+        SoloMain,
+    }
+
+}
+</script>
