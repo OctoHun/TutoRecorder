@@ -1,15 +1,3 @@
-<!--
-FEAT는 기능을 추가할 때 사용하는 템플릿입니다!
-제목 형식 >>  [FEAT] : {추가할 기능}
-ex) [FEAT] : 방 CRUD
-
-만들고 BACK, FRONT, etc 중 하나의 라벨을 붙여주세요!
-라벨은 작성칸 아래 LABEL 항목에 있습니다!
-담당자 지정은 본인으로 해주세요!
--->
-
-## 기능 설명
-<!-- 내용을 입력하세요 -->
-
-## 참고 사항
-<!-- 추가적인 공유가 필요한 사항은 Comment -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:da666ae3902788250df525db02ecef43510f04abde88cc953aed870b845e32db
+size 446
