@@ -1,23 +1,3 @@
-<template>
-    <div id="background-image">
-      <router-view/>
-    </div>
-</template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  height: 100vh;
-}
-
-#background-image{
-  background-image: url("./assets/BackgroundImage.png");
-  height: 100vh;
-  background-size: 100vw 100vh;
-}
-
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:87e6a7ac347e47f5618ccccab82b43577d1956450cd19095a3c7ba84e844ad3d
+size 593
