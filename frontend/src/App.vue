@@ -1,31 +1,3 @@
-<template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/test">Test</router-link>
-  </nav>
-  <router-view/>
-</template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f778ded92d8414bf7f620293b49a8819019b7ce1f52dc54ac9604a9063c8ff0
+size 2497
