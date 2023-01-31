@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8bfecde870dda520ddb89c02e16d60829e98384f114481dd0ea75563e40cc8d8
-size 385
+<template>
+    <div class="pink-container">
+        <SoloSongMain/>
+    </div>
+</template>
+
+<script>
+import SoloSongMain from '@/components/solo/SoloSongMain.vue';
+
+export default {
+    name: 'SoloSongView',
+    components: {
+        SoloSongMain
+    }
+}
+</script>
+
+<style>
+.pink-container{
+    width: 95vw;
+    height: 95vh;
+    background-color: #F2E6E6;
+    margin: auto;
+}
+</style>
