@@ -1,26 +1,3 @@
-<template>
-    <div class="pink-container">
-        <SoloSoundMain/>
-    </div>
-</template>
-
-<script>
-import SoloSoundMain from '@/components/solo/SoloSoundMain.vue';
-
-export default {
-    name: 'SoloSoundView',
-    components: {
-        SoloSoundMain
-    }
-}
-</script>
-
-<style>
-.pink-container{
-    width: 95vw;
-    height: 95vh;
-    background-color: #F2E6E6;
-    margin: auto;
-    border-radius: 30px;
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e24a0f7d459525a22d3a624072c099e0179bc71e53509c60e3feffd890c13df
+size 455
