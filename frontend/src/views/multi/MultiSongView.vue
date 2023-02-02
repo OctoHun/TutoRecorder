@@ -1,20 +1,21 @@
 <template>
     <div class="pink-container">
-        <SoloSongMain/>
+        <MultiSongMain/>
     </div>
 </template>
 
 <script>
-import SoloSongMain from '@/components/solo/SoloSongMain.vue';
+import MultiSongMain from '@/components/multi/MultiSongMain.vue';
 
 export default {
-    name: 'SoloSongView',
+    name: 'MultiSongView',
     components: {
-        SoloSongMain
+        MultiSongMain
     }
 }
 </script>
 
 <style>
+
 
 </style>

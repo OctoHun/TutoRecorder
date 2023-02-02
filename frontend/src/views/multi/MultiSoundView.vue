@@ -1,16 +1,16 @@
 <template>
     <div class="pink-container">
-        <SoloSongMain/>
+        <MultiSoundMain/>
     </div>
 </template>
 
 <script>
-import SoloSongMain from '@/components/solo/SoloSongMain.vue';
+import MultiSoundMain from '@/components/multi/MultiSoundMain.vue';
 
 export default {
-    name: 'SoloSongView',
+    name: 'MultiSoundView',
     components: {
-        SoloSongMain
+        MultiSoundMain,
     }
 }
 </script>
