@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77160bfb369145068056d8a31b99c8373c38a0f16086f7b07eec97cab2b77058
-size 320
+# frontend
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### cursor
+<a href="https://www.flaticon.com/kr/free-icons/ui" title="ui 아이콘">Ui 아이콘  
