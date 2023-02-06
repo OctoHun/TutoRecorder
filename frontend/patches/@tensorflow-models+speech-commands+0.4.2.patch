@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c92d50c9c0e1071ad3a529a7e61654c25fda6c25d6cde60a5536ec8658d1c33e
-size 426
+diff --git a/node_modules/@tensorflow-models/speech-commands/package.json b/node_modules/@tensorflow-models/speech-commands/package.json
+index 541d796..7ac9fee 100644
+--- a/node_modules/@tensorflow-models/speech-commands/package.json
++++ b/node_modules/@tensorflow-models/speech-commands/package.json
+@@ -48,4 +48,6 @@
+     "test": "ts-node run_tests.ts"
+   },
+   "license": "Apache-2.0"
++  ,
++  "browser": { "fs": false }
+ }
