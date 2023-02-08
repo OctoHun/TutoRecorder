@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e899ebeff8f0ee03b45b450ba976057fe8c40d2a53f224a01160a58dbb9a313
-size 261
+<template>
+        <video autoplay />
+</template>
+<script>
+export default ({
+    name: 'OvVideo',
+
+    props: {
+        streamManager: Object,
+    },
+
+    mounted() {
+        this.streamManager.addVideoElement(this.$el);
+    }
+})
+</script>
+
+<style>
+
+</style>
+
+
