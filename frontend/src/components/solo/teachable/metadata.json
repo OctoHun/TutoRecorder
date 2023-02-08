@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77cd614fe80c339c08b4ff8ebcff90a095e155b292192a000f23c0a42d81321b
-size 168
+{"tfjsSpeechCommandsVersion":"0.4.0","modelName":"TMv2","timeStamp":"2023-02-01T09:32:56.528Z","wordLabels":["도","라","레","미","배경 소음","솔","시","파"]}
