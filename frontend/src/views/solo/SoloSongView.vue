@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <SoloSongMain msg="기본곡 모드" />
+    <div class="pink-container">
+        <SoloSongMain/>
     </div>
 </template>
 
