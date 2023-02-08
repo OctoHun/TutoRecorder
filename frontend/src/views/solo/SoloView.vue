@@ -1,8 +1,9 @@
 <template>
-    <div>
-        <SoloMain msg="개인모드" />
+    <div class="mode">
+        <SoloMain/>
     </div>
 </template>
+
 <script>
 import SoloMain from '@/components/solo/SoloMain.vue'
 
@@ -11,6 +12,8 @@ export default {
     components: {
         SoloMain,
     }
-
 }
 </script>
+
+<style>
+</style>

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <SoloSoundMain msg="소리내기 모드" />
+    <div class="pink-container">
+        <SoloSoundMain/>
     </div>
 </template>
 
@@ -14,7 +14,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>
