@@ -1,14 +1,3 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
-
-createApp(App,
-    {
-        onExpand() {
-            console.log('expand')
-        }
-    }).use(store).use(router).use(ElementPlus).mount('#app')
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ae8dc797e0bb201c57082783a50b2bd77ff8c6aaa0733631f0ec69be8b4bb3b
+size 343

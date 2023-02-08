@@ -1,27 +1,3 @@
-<template>
-    <div class="pink-container-solo mode">
-        <SoloAnalizeMain/>
-    </div>
-</template>
-
-<script>
-import SoloAnalizeMain from '@/components/solo/SoloAnalizeMain.vue';
-
-export default {
-    name: 'SoloAnalizeView',
-    components: {
-        SoloAnalizeMain
-    }
-
-}
-</script>
-
-<style>
-.pink-container-solo{
-    width: 50vw;
-    height: 95vh;
-    background-color: #F2E6E6;
-    margin: auto;
-    border-radius: 30px;
-}
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:118bd9501648e652b0ecc3855dfde9d55c32284ce9488cb95f5ed56c250729fd
+size 441
