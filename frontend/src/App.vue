@@ -1,30 +1,3 @@
-<template>
-  <div>
-    <div id="background-image">
-      <router-view/>
-    </div>
-  </div>
-</template>
-
-<script>
-
-export default {
-    name: 'App',
-    components: {
-
-    },
-    data() {
-      return {
-        
-      }
-    },
-    methods: {
-      
-      
-    },
-    
-}
-</script>
-<style>
-  
-</style>
+version https://git-lfs.github.com/spec/v1
+oid sha256:63f0de5af45f01f885b992d14f81774d2541cb24fc2b2121953f652bf225681c
+size 299
