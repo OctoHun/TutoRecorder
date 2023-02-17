@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:66288a2ee62ff54d80b291edcadd7b58a5e181784500b7fec3418eae762ce862
-size 455
+a<template>
+    <div class="pink-container tutorial-container">
+        <SoloTutorialSelect/>
+    </div>
+</template>
+
+<script>
+import SoloTutorialSelect from '@/components/solo/SoloTutorialSelect.vue';
+
+export default {
+    name: 'SoloTutorialSelectView',
+    components: {
+        SoloTutorialSelect
+    },
+    methods: {
+    }
+}
+</script>
+
+<style>
+.tutorial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+</style>

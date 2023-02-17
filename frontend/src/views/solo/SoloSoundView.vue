@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d69b4034ec435dc30dfafea034e296e1964ec045468f4be328a7073213553361
-size 269
+<template>
+    <div class="pink-container">
+        <SoloSoundMain/>
+    </div>
+</template>
+
+<script>
+import SoloSoundMain from '@/components/solo/SoloSoundMain.vue';
+
+export default {
+    name: 'SoloSoundView',
+    components: {
+        SoloSoundMain
+    }
+}
+</script>
